@@ -41,6 +41,6 @@ def service_port_make(pvlan, portinfo, cvlan,count)
   end
 end
 
-ont_make(1, 'gd10061', 3, 3,64)
-service_port_make(1314, '0/6/1', 1513,64)
+ont_make(2, 'lh10032', 3, 1,10)
+service_port_make(1254, '0/3/2', 1200,10)
 
