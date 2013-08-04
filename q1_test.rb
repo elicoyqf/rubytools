@@ -4,7 +4,7 @@ require 'uri'
 require 'json'
 
 uri = URI.parse("http://221.174.16.37/chinatt2/postresult_f2_2.php?provincecode=19&citycode=6&operatorcode=2&contact=%C0%EE%C4%FE&contactinfo=10050&no=190602&MACADDR=08-00-27-00-9C-11&ver=2.0.3&memo=%B5%E7%D0%C5%D3%C3%BB%A7")
-posttime = Time.now.to_s(:db)
+posttime = Time.now.strftime("%Y-%m-%d %H:%M:%S")
 rtime = Time.now.strftime("%a, %d %b %Y %H:%M:%S")
 tt = "#{rtime}"
 xml_data = '<?xml version="1.0"?>
