@@ -23,7 +23,7 @@ def ont_make(port, pass_prefix, lineid, srvid,count)
       else
         tmp = t
       end
-      puts "ont add #{port} #{tmp} password-auth #{set} once-on no-aging omci ont-lineprofile-id #{lineid} ont-srvprofile-id #{srvid}"
+      puts "ont add #{port} #{tmp} password-auth #{set} always-on no-aging omci ont-lineprofile-id #{lineid} ont-srvprofile-id #{srvid}"
     end
   end
 end
