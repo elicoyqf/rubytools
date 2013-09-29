@@ -7,6 +7,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="ruby-2.0.0-p247" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, ruby-2.0.0-p247) [gem]" level="application" />
   </component>
 </module>
 
